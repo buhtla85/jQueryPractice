@@ -14,8 +14,6 @@ a {
     text-decoration: none;
 }
 
-/* https://ak1.picdn.net/shutterstock/videos/1024876391/thumb/1.jpg */
-
 #bcg-image {
     background: url("./images/liquid-alberto-seveso-simple-background-paint-in-water___mixed-wallpapers.jpg");
     background-position: center center;
@@ -72,62 +70,13 @@ header h1 {
 .responsive {
     width: 100%;
     height: auto;
-  }
-
-/* #page2 #slideshow-container img {
-    vertical-align: middle;
-} */
-
-/* #prev, #next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: #ffffcc;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
 }
 
-#next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-#prev:hover, #next:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.slide-text {
-    color: #ffffcc;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: 0.4}
-    to {opacity: 1}
-}
-
-@media only screen and (max-width: 300px) {
-    #prev, #next, .slide-text {
-        font-size: 11px;
+@media screen and (max-width: 550px) {
+    .text {
+        font-size: 65px;
     }
-} */
+}
+
 
 
