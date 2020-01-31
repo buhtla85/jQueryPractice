@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* https://ak1.picdn.net/shutterstock/videos/1024876391/thumb/1.jpg */
+
+#bcg-image {
+    background: url("./images/liquid-alberto-seveso-simple-background-paint-in-water___mixed-wallpapers.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#text-flex {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 80px;
+    color: #ffffcc;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ffffcc, 0 0 20px #ffffcc, 0 0 30px #4a5ca8, 0 0 40px #4a5ca8, 0 0 50px #4a5ca8, 0 0 60px #4a5ca8, 0 0 70px #4a5ca8;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #ffffcc, 0 0 30px #6dc7e2, 0 0 40px #6dc7e2, 0 0 50px #6dc7e2, 0 0 60px #6dc7e2, 0 0 70px #6dc7e2, 0 0 80px #6dc7e2;
+    }
+}
+
+#page2 {
+    height: 100vh;
+    background-color: #3c889e;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    font-size: 1.9em;
+    color: #ffffcc;
+}
+
+#page2 #slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* #page2 #slideshow-container .slides .active {
+    display: block;
+} */
+
+#page2 #slideshow-container img {
+    vertical-align: middle;
+}
+
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffcc;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slide-text {
+    color: #ffffcc;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    #prev, #next, .slide-text {
+        font-size: 11px;
+    }
+}
+
+/* h2, p {
+    color: #ffffcc;
+}
+
+#container {
+    max-width: 680px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#slider {
+    width: 640px;
+    height: 426px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 2px;
+    border-radius: 5px;  
+    padding: 0;  
+} */
+
+/* .responsive {
+    width: 640px;
+    height: 426px;
+    
+} */
+
+/* .slide {
+    position: absolute;
+}
+
+.slide-copy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background: #7f7f7f;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#prev, #next {
+    float: left;
+    margin-top: 170px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+#prev {
+    margin-right: -45px;
+}
+
+#next {
+    margin-left: -45px;
+}  */
+
